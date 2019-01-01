@@ -13,14 +13,10 @@ Concept #2
   7. Add resume download
   8. Add contact info
   9. Find a place for a short bio
-  <br>
-  <br>
+
      <em>Header</em>
-  <li>
   1. Add Contacts jump
   2. Add Projects jump
-  </li>
-  <br>
-  <br>
-      Footer
+
+      <em>Footer</em>
   1. Add StackOverflow???
