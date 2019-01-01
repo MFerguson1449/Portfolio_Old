@@ -32,12 +32,14 @@ body {
 #focus #name {
     color: #cca00a;
     font-size: 280%;
-    font-weight: normal;
+    font-weight: lighter;
     line-height: .7em;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 #focus #first {
+    padding-left: 35px;
+    padding-top: 5px;
 }
 
 #landing #focus #accent_text {
@@ -45,14 +47,24 @@ body {
 }
 
 #focus #tag {
-    font-size: 150%;
+    font-size: 130%;
     color: white;
     position: relative;
-    bottom: 40px;
+    bottom: 50px;
 }
 #focus #swords {
     position: relative;
-    bottom: 130px;
+    bottom: 140px;
+}
+
+#focus #soft {
+    position: relative;
+    right: 35px;
+}
+
+#focus #dev {
+    position: relative;
+    left: 2px;
 }
 
 #footer {
