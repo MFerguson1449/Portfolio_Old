@@ -16,8 +16,10 @@ Concept #2
   <br>
   <br>
      <em>Header</em>
+  <li>
   1. Add Contacts jump
   2. Add Projects jump
+  </li>
   <br>
   <br>
       Footer
