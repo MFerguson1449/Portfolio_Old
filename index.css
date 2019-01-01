@@ -1,0 +1,98 @@
+body {
+    font-family: 'Rammetto One', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #cca00a;
+    background: black;
+}
+
+#main {
+    margin: 0px 0px 0px 0px;
+}
+
+#landing {
+    height: 100vh;
+    background-image: url(img/blue-leather.png);
+    z-index: -5;
+}
+
+#focus {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0px solid white;
+    height: 1050px;
+    width: 900px;
+}
+
+#focus #land_text {
+    position: relative;
+}
+#focus #name {
+    color: #cca00a;
+    font-size: 280%;
+    font-weight: normal;
+    line-height: .7em;
+    letter-spacing: 1px;
+}
+
+#focus #first {
+}
+
+#landing #focus #accent_text {
+    text-decoration: underline;
+}
+
+#focus #tag {
+    font-size: 150%;
+    color: white;
+    position: relative;
+    bottom: 40px;
+}
+#focus #swords {
+    position: relative;
+    bottom: 130px;
+}
+
+#footer {
+    position: relative;
+    background: black;
+    height: 20px;
+    padding: 10px 0px 7px 0px;
+    border: 1px dashed black;
+}
+
+#github {
+    position: absolute;
+    left: 100px;
+    bottom: 2px;
+    font-size: 15px
+}
+
+#linkedin {
+    position: absolute;
+    left: 225px;
+    bottom: 2px;
+    font-size: 15px;
+}
+
+#header #skills-jump {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    font-size: 15px;
+}
+
+#copyright {
+    font-size: 8px;
+}
+
+a:link, a:visited {
+    color: #cca00a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
