@@ -15,10 +15,10 @@ Concept #2
   9. Find a place for a short bio
   <br>
 
-     <em>Header</em>
+     Header
   1. Add Contacts jump
   2. Add Projects jump
   <br>
 
-      <em>Footer</em>
+     Footer
   1. Add StackOverflow???
