@@ -15,7 +15,7 @@ Concept #2
   9. Find a place for a short bio
   <br>
   <br>
-      Header
+     <em>Header</em>
   1. Add Contacts jump
   2. Add Projects jump
   <br>
