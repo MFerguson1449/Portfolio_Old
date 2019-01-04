@@ -3,67 +3,65 @@
     <head>
         <meta charset="utf-8">
         <link type="text/css" rel="stylesheet" href="index.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Sigmar+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <title>Mike Ferguson</title>
     </head>
 
     <body>
+        <script>
+            document.body.className = 'fade';
+        </script>
         <!--Header-->
         <div id="header">
 
             <div id="skills-jump">
-                <a href="#skills"><img src="img/arrow.png">  Skills</a>
+                <p>
+                <a href="#skills"><img src="img/arrow.png" alt="Jump Arrow">  Skills</a>
+                </p>
             </div>
 
             <div id="projects-jump">
-                <a href="#projects"><img src="img/arrow.png">  Projects</a>
+                <p>
+                <a href="#projects"><img src="img/arrow.png" alt="Jump Arrow">  Projects</a>
+                </p>
             </div>
 
         </div>
 
         <!--Landing Page-->
         <div id="landing">
-
-
             <div id="focus">
-                    <h1 id="name"><span id="first">Michael </span><span id="accent_text">Ferguson</span></h1>
+                    <h1 id="name"><span class="first">Michael </span><span class="last">Ferguson</span></h1>
 
                 <div id="bio">
-                    <p>I am a highly motivated self-taught software developer, currently focusing on the front end,
+                    <p>I am a highly motivated self-taught software developer, currently focusing on the front end.
                         My goal is to become a full-stack developer. Below you can see my current skill set, and
                         the projects that I have been working on!
-                    </p>
-
+                    </p> 
                     <p id="resume-button">
-                        <a href="img/my-resume.jpg" target="_blank"><img src="img/resume-button.png"></a>
+                        <a href="img/my-resume.jpg" target="_blank"><img src="img/resume-button.png" alt="Resume Download Button"></a>
                     </p>
-
-                    <div id="city">          
-                    <p>
-                        <img src="img/future-skyline.png" alt="Futuristic City Skyline">
-                    </p>
-                    </div>
                 </div>
             </div>
-
         </div>
 
         <!--Skills-->
         <div id="main">
             <div id="skills">                
-                <span id="my-skills"><h2>My Skills</h2></span>
+                <div class="title">
+                    <h2><span class="first">My</span> Skills</h2>
+                </div>
 
-                    <div id="skill-imgs">
+                    <div id="skill-desc">
                         <p>
-                        <img src="img/html-logo.png">
-                        <img src="img/css-logo.png">
-                        <img src="img/python-logo.png">
-                        <img src="img/photoshop-logo.png">
-                        <img src="img/git-logo.png">
+                        <ul>
+                            <li><img src="img/html-logo.png" alt="HTML5 Logo"> HTML</li>
+                            <li><img src="img/css-logo.png" alt="CSS3 Logo"> CSS</li>
+                            <li><img src="img/python-logo.png" alt="Python Logo"> Python</li>
+                            <li><img src="img/photoshop-logo.png" alt="Photoshop Logo"> Photoshop</li>
+                            <li><img src="img/git-logo.png" alt="Git Logo"> Git</li>
+                        </ul>
                         </p>
-                    </div>
-                    <div id="skill-text">
-                        <p>HTML5 CSS3 <span id="python">Python</span> Photoshop Git</p>
                     </div>
             </div>    
             
@@ -80,7 +78,7 @@
                     <p>.<br></p>
                     <p>.<br></p>
             </div>
-            
+        </div>    
         <!--Footer-->
 
         <div id="footer">
@@ -99,6 +97,12 @@
         
         </div>
         
+        <script>
+                document.addEventListener("DOMContentLoaded", function(e) {
+                  document.body.className = '';
+                });
+        </script>
+
     </body>
 
 </html>
