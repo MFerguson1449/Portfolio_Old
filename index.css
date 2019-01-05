@@ -5,7 +5,6 @@ html {
 
 body {    
     font-family: 'Montserrat', cursive;
-    font-size: 30px;
     text-align: center;
     color: #0cebff;
     background: url(img/page-back.jpg);
@@ -34,10 +33,6 @@ h3 {
 
 ul img {
     margin: 0px 5px 0px 0px;
-}
-
-#main {
-    margin: 0px 0px 0px 0px;
 }
 
 #landing {
@@ -151,12 +146,12 @@ ul img {
 }
 
 #aboutme #skills {
-    position: relative;
-    border-right: 3px inset #0cebff;
+    float: right;
+    border-left: 3px inset #0cebff;
     text-align: left;
-    line-height: 1.5em;
-    margin: 2% 62% 10% 15%;
-    padding-right: 5%;
+    line-height: 1.4em;
+    margin: 0% 20% 5% 15%;
+    padding-left: 5%;
 }
 
 #skills li {
@@ -167,21 +162,21 @@ ul img {
     color: white;
 }
 
-#contact {
-    position: absolute;
-    top: 26.1%;
-    right: 14%;
-    width: 50%;
+#aboutme #contact {
+    position: static;
+    margin: 0% 43% 0% 15%;
+    padding: 0% 0% 0% 20px;
     border: 0px #0cebff dashed;
 }
 
 #contact li {
     list-style-type: none;
-    font-size: 90%;
+    font-size: 85%;
     letter-spacing: .1em;
     line-height: 35px;
     color: white;
-    margin: 0% 0% 0% 10%;
+    margin: 0% 0% 0% 0%;
+    border: 0px dashed #0cebff;
 }
 
 #contact {
@@ -191,6 +186,17 @@ ul img {
 #aboutme #city {
     position: relative;
     bottom: -3px;
+}
+
+#projects {
+    position: relative;
+    border: 0px #60aedb dashed;
+    margin: 20% 10% 20% 7%;
+    padding: 75px 0px 0px 0px;
+    border-left: 5px #0cebff inset;
+    border-right: 5px #0cebff inset;
+    border-radius: 50px;
+    background: rgba(0, 0, 0,0.6); 
 }
 
 #copyright {
@@ -214,7 +220,7 @@ img {
 
 body {
     opacity: 1;
-    transition: 1.3s;
+    transition: 1.5s;
 }
 
 body.fade {
