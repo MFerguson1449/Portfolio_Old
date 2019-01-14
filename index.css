@@ -6,19 +6,24 @@ html {
 body {    
     font-family: 'Montserrat', cursive;
     text-align: center;
-    color: #0cebff;
-    background: url(img/page-back.jpg);
+    color: black;
+    background: url(img/port-page-back.jpg);
     background-size: cover;
 }
 
+#main {
+    margin: 30px 10% 0px 10%;
+}
+
+
 p {
     font-size: 16px;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
 }
 
 h1 {
     font-size: 20px;
-    font-size: 4.2vw;
+    font-size: 3.0vw;
 }
 
 h2 {
@@ -37,19 +42,19 @@ ul img {
 
 #landing {
     height: 100vh;
-    background-image: url(img/dark-night-fulfl.jpg);
-    background-size: cover;
-    z-index: -5;    
+    z-index: -5; 
+    border: 0px solid white;   
 }
 
 #focus {
     position: absolute;
+    text-align: left;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0,0);
-    padding: 75px 0px 200px 0px;
-    width: 85%;
+    padding: 0px 0px 0px 0px;
+    width: 70%;
     height: 50%;
     border-left: 0px #0cebff inset;
     border-right: 0px #0cebff inset;
@@ -70,7 +75,7 @@ ul img {
 }
 
 .first {
-    color: white;
+    color: black;
     position: relative;
     left: 12px
 }
@@ -79,49 +84,70 @@ ul img {
     text-decoration: underline;
 }
 
-#focus #resume-button {
-    position: relative
-}
-
 #header #skills-jump {
     position: absolute;
-    top: 5%;
-    right: 10%;
-    font-size: 20px;
-    font-weight: lighter;    
+    top: 3%;
+    left: 4%; 
     margin: 2px 2px 2px 2px;
 }
 
 #header #projects-jump {
     position: absolute;
-    top: 5%;
-    right: 18%;
+    top: 3%;
+    left: 14%;
     font-size: 20px;
     font-weight: lighter;
     margin: 0px 2px 0px 2px;
 }
 
 #landing #bio {
-    font-size: 20px;
-    color: white;
-    width: 690px;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    line-height: 1.2em;
+    font-size: 12px;
+    color: black;
+    width: 55%;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    line-height: 2em;
     position: relative;    
-    top: 25%;
-    left: 50%;
+    top: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
     max-width: 100%;
-    background: rgba(0, 0, 0,0.3);
-    border-left: white 3px solid;
-    border-right: white 3px solid;
-    border-radius: 100px;
+    background: rgba(0, 0, 0,0.0);
+    border-left: black 5px outset;
+    border-right: white 0px solid;
+    border-radius: 20px;
     padding: 7px 45px 7px 45px;
+    text-shadow: 1px 1px 10px black;
 }
 
-#main {
-    margin: 30px 10% 0px 10%;
+
+#landing #logo {
+    position: absolute;
+    left: -12%;
+    width: 100%;
+}   
+
+#focus #resume-button {
+    position: relative;
+    border: 0px white dashed;
+}
+
+#focus #email {
+    position: absolute; 
+    border: 0px white dashed;
+    left: 25%;
+}
+
+#focus #github {
+    position: absolute;
+    border: 0px white dashed;
+    left: 70%;
+}
+
+#focus #linkedin {
+    position: absolute;
+    border: 0px white dashed;
+    left: 80%;
 }
 
 #aboutme {
@@ -160,27 +186,6 @@ ul img {
     letter-spacing: .1em;
     line-height: 35px;
     color: white;
-}
-
-#aboutme #contact {
-    position: static;
-    margin: 0% 43% 0% 15%;
-    padding: 0% 0% 0% 20px;
-    border: 0px #0cebff dashed;
-}
-
-#contact li {
-    list-style-type: none;
-    font-size: 85%;
-    letter-spacing: .1em;
-    line-height: 35px;
-    color: white;
-    margin: 0% 0% 0% 0%;
-    border: 0px dashed #0cebff;
-}
-
-#contact {
-    text-align: left;
 }
 
 #aboutme #city {
