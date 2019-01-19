@@ -40,35 +40,6 @@ ul img {
     margin: 0px 5px 0px 0px;
 }
 
-#landing {
-    height: 100vh;
-    z-index: -5; 
-    border: 0px solid white;   
-}
-
-#focus {
-    position: absolute;
-    text-align: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0,0);
-    padding: 0px 0px 0px 0px;
-    width: 70%;
-    height: 50%;
-    border-left: 0px #0cebff inset;
-    border-right: 0px #0cebff inset;
-    border-radius: 50px;
-}
-
-#focus #name {
-    color: #0cebff;
-    font-weight: 900;
-    line-height: .7em;
-    letter-spacing: 0px;
-    text-decoration: underline;
-}
-
 .title {
     text-decoration: underline;
     color: #0cebff;
@@ -100,54 +71,87 @@ ul img {
     margin: 0px 2px 0px 2px;
 }
 
-#landing #bio {
+#landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100vh;
+    z-index: -5; 
+    border: 0px solid white;   
+}
+
+#focus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background: rgba(0, 0, 0,0);
+    width: 70%;
+    height: 50%;
+    border-radius: 50px;
+}
+
+#focus #bio {
     font-size: 12px;
     color: black;
-    width: 55%;
+    font-family: 'Comfortaa', cursive;
     font-weight: 700;
     letter-spacing: 0.005em;
     line-height: 2em;
-    position: relative;    
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
+    max-width: 75%;
     background: rgba(0, 0, 0,0.0);
     border-left: black 5px outset;
-    border-right: white 0px solid;
     border-radius: 20px;
-    padding: 7px 45px 7px 45px;
-    text-shadow: 1px 1px 10px black;
+    text-shadow: 2px .7px 15px black;
+    padding: 0px 0px 20px 20px;
+    flex: 2;
 }
 
+#focus #logo {
+    width: 120%;
+    flex: 1.5;
+    margin-right: -13%;
+}
 
-#landing #logo {
-    position: absolute;
-    left: -12%;
-    width: 100%;
-}   
+#focus #name {
+    color: #0cebff;
+    font-weight: 900;
+    line-height: .7em;
+    letter-spacing: 0px;
+    border-bottom: #0cebff inset 4px;
+    padding: 0px 0px 5px 0px;
+    width: 66%;
+}
+
+#tools {
+    border: 0px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: row;
+
+}
 
 #focus #resume-button {
-    position: relative;
-    border: 0px white dashed;
+    border: 0px solid white;
+    display: inline-flex;
 }
 
 #focus #email {
-    position: absolute; 
-    border: 0px white dashed;
-    left: 25%;
+    border: 0px solid white;
+    display: inline-flex;
 }
 
 #focus #github {
-    position: absolute;
-    border: 0px white dashed;
-    left: 70%;
+    border: 0px solid white;
+    display: inline-flex;
 }
 
 #focus #linkedin {
-    position: absolute;
-    border: 0px white dashed;
-    left: 80%;
+    border: 0px solid white;
+    display: inline-flex;
 }
 
 #aboutme {
@@ -181,11 +185,11 @@ ul img {
 }
 
 #skills li {
-    list-style-type: none;
+    list-style-type: circle;
     font-size: 50%;
     letter-spacing: .1em;
     line-height: 35px;
-    color: white;
+    color: #0cebff;
 }
 
 #aboutme #city {
