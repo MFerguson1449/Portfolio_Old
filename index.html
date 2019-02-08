@@ -11,7 +11,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
         <link rel="manifest" href="site.webmanifest">
-        <link rel="mask-icon" href="icon/afari-pinned-tab.svg" color="#5bbad5">
+        <link rel="mask-icon" href="icon/afari-pinned-tab.svg" color="#5bbad5">       
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
     </head>
@@ -20,6 +21,7 @@
         <script>
             document.body.className = 'fade';
         </script>
+
         <!--Header-->
         <div id="header">
 
@@ -39,7 +41,7 @@
 
 
         <!--Landing Page-->
-        <div id="landing">
+        <div id="landing" class="container">
             <div id="focus">
                 <div id="logo">
                     <img src="img/logo-3.png" alt="My Logo">
@@ -50,7 +52,7 @@
                         My goal is to become a full-stack developer. Below you can see my current skill sets, and
                         the projects that I have been working on!
                     </p> 
-                    <div id="tools">
+                    <div id="icons">
                         <span id="resume-button"><a href="img/my-resume.jpg" target="_blank"><img src="img/resume-button.png" alt="Resume Download Button"></a>
                         <span id="email"><img src="img/email-text.png" alt="Mail Icon" target="_blank"></span>
                         <span id="github"><a href="https://github.com/MFerguson1449" target="_blank"><img src="img/github-icon.png" alt="Github Icon"></br></a></span>
@@ -63,40 +65,69 @@
         
         <!--Skills-->
         <div id="main">
-            <div id="aboutme">                
-                <div class="title">
-                    <h2><span class="first">About</span> Me</h2>
-                </div>
-
-                    <div id="skills">                                              
-                            <h3 class="subtitle"><span class="first">My</span> Skills<h3>
+            <div id="aboutme" class="container">                
+                <div id="skills">                                              
+                    <h3 class="title"><span class="first">My</span> Skills</h3>
+                    <div id="skill-blurb">
                         <p>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>Agile Methodoligies</li>
-                            <li>Git Flow</li>
-                            <li>Node.js</li>
-                            <li>Photoshop</li>
-                            <li>Microsoft Office</li>
-                        </ul>
+                            I enjoy exploring and try to learn something new with every project. 
+                            I am passionate about bringing my ideas to life in the browser, below you will find 
+                            a list of the tools that I use...
                         </p>
                     </div>
-                    
-
-
-                    <div id="city">
-                        <img src="img/future-skyline.png" alt="Futuristic City">
+                    <div id="skill-lists">
+                        <div id="lang">
+                            <div class='subtitle'>
+                                <h3>Languages</h3>
+                            </div>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <div id="tools">
+                            <div class='subtitle'>
+                                <h3>Tools</h3>
+                            </div>
+                            <ul>
+                                <li>Agile Methodologies</li>
+                                <li>Git Flow</li>
+                                <li>Node.js</li>
+                                <li>Photoshop</li>
+                                <li>Microsoft Office</li>
+                            </ul>
+                        </div>
                     </div>
+                </div>
             </div>    
             
             <!--Projects-->
-            <div id="projects">
+            <div id="projects" class="container">
                 <h1 class="title"><span class="first">My</span> Projects</h1>
-                    <br>
-                    <br>
+                    <div id="proj-sort">
+                        <div class="proj-box">
+                            <h3 class="proj-title">BFF Dog Rescue NJ Inc.</h3>
+                            <a href="../BFFRescue2/index.html" target="_blank"><img src="img/bfflogo.jpg" class="proj-img" alt="BFF Rescue logo"></a>
+                            <div class="proj-blurb">
+                                <p>
+                                    A website for BFF Dog Rescue NJ Inc.<br>
+                                    Created using: HTML - CSS - JavaScript.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="proj-box">
+                            <h3 class="proj-title">M.U.R.F. Bot</h3>
+                            <a href="img/under-construction.jpg" target="_blank"><img src="img/robot3.jpg" class="proj-img" alt="MURF image"></a>
+                            <div class="proj-blurb">
+                                <p>
+                                        A functional bot for Discord.<br>
+                                        Created using: JavaScript, Discord.js API.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <br>
                     <br>
                     <br>
